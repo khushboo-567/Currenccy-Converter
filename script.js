@@ -39,8 +39,8 @@ btn.addEventListener("click",async (evt)=>{
    evt.preventDefault();
    let amount= document.querySelector(".amount input");
    let amtval= amount.value;
-   console.log("amount:", amount);
-   console.log("amtval:", amtval);
+  //console.log("amount:", amount);
+   //console.log("amtval:", amtval);
    if(amtval==="" || amtval<1){
     amtval=1;
    }
